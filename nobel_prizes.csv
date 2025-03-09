@@ -1,0 +1,677 @@
+year,category,laureates,shared_count
+1901,Chemistry,"[""Jacobus Henricus van 't Hoff""]",1
+1901,Literature,['Sully Prudhomme'],1
+1901,Peace,"['Jean Henry Dunant', 'Frédéric Passy']",2
+1901,Physics,['Wilhelm Conrad Röntgen'],1
+1901,Physiology or Medicine,['Emil Adolf von Behring'],1
+1902,Chemistry,['Hermann Emil Fischer'],1
+1902,Literature,['Christian Matthias Theodor Mommsen'],1
+1902,Peace,"['Élie Ducommun', 'Charles Albert Gobat']",2
+1902,Physics,"['Hendrik Antoon Lorentz', 'Pieter Zeeman']",2
+1902,Physiology or Medicine,['Ronald Ross'],1
+1903,Chemistry,['Svante August Arrhenius'],1
+1903,Literature,['Bjørnstjerne Martinus Bjørnson'],1
+1903,Peace,['William Randal Cremer'],1
+1903,Physics,"['Antoine Henri Becquerel', 'Pierre Curie', 'Marie Curie, née Skłodowska']",3
+1903,Physiology or Medicine,['Niels Ryberg Finsen'],1
+1904,Chemistry,['Sir William Ramsay'],1
+1904,Literature,"['Frédéric Mistral', 'José Echegaray y Eizaguirre']",2
+1904,Peace,['Institute of International Law'],1
+1904,Physics,['Lord Rayleigh (John William Strutt)'],1
+1904,Physiology or Medicine,['Ivan Petrovich Pavlov'],1
+1905,Chemistry,['Johann Friedrich Wilhelm Adolf von Baeyer'],1
+1905,Literature,['Henryk Sienkiewicz'],1
+1905,Peace,"['Baroness Bertha Sophie Felicita von Suttner, née Countess Kinsky von Chinic und Tettau']",1
+1905,Physics,['Philipp Eduard Anton von Lenard'],1
+1905,Physiology or Medicine,['Robert Koch'],1
+1906,Chemistry,['Henri Moissan'],1
+1906,Literature,['Giosuè Carducci'],1
+1906,Peace,['Theodore Roosevelt Jr.'],1
+1906,Physics,['Joseph John Thomson'],1
+1906,Physiology or Medicine,"['Camillo Golgi', 'Santiago Ramón y Cajal']",2
+1907,Chemistry,['Eduard Buchner'],1
+1907,Literature,['Rudyard Kipling'],1
+1907,Peace,"['Ernesto Teodoro Moneta', 'Louis Renault']",2
+1907,Physics,['Albert Abraham Michelson'],1
+1907,Physiology or Medicine,['Charles Louis Alphonse Laveran'],1
+1908,Chemistry,['Ernest Rutherford'],1
+1908,Literature,['Rudolf Christoph Eucken'],1
+1908,Peace,"['Klas Pontus Arnoldson', 'Fredrik Bajer']",2
+1908,Physics,['Gabriel Lippmann'],1
+1908,Physiology or Medicine,"['Ilya Ilyich Mechnikov', 'Paul Ehrlich']",2
+1909,Chemistry,['Wilhelm Ostwald'],1
+1909,Literature,['Selma Ottilia Lovisa Lagerlöf'],1
+1909,Peace,"['Auguste Marie François Beernaert', ""Paul Henri Benjamin Balluet d'Estournelles de Constant, Baron de Constant de Rebecque""]",2
+1909,Physics,"['Guglielmo Marconi', 'Karl Ferdinand Braun']",2
+1909,Physiology or Medicine,['Emil Theodor Kocher'],1
+1910,Chemistry,['Otto Wallach'],1
+1910,Literature,['Paul Johann Ludwig Heyse'],1
+1910,Peace,['Permanent International Peace Bureau'],1
+1910,Physics,['Johannes Diderik van der Waals'],1
+1910,Physiology or Medicine,['Albrecht Kossel'],1
+1911,Chemistry,"['Marie Curie, née Skłodowska']",1
+1911,Literature,['Count Maurice (Mooris) Polidore Marie Bernhard Maeterlinck'],1
+1911,Peace,"['Tobias Michael Carel Asser', 'Alfred Hermann Fried']",2
+1911,Physics,['Wilhelm Wien'],1
+1911,Physiology or Medicine,['Allvar Gullstrand'],1
+1912,Chemistry,"['Victor Grignard', 'Paul Sabatier']",2
+1912,Literature,['Gerhart Johann Robert Hauptmann'],1
+1912,Peace,['Elihu Root'],1
+1912,Physics,['Nils Gustaf Dalén'],1
+1912,Physiology or Medicine,['Alexis Carrel'],1
+1913,Chemistry,['Alfred Werner'],1
+1913,Literature,['Rabindranath Tagore'],1
+1913,Peace,['Henri La Fontaine'],1
+1913,Physics,['Heike Kamerlingh Onnes'],1
+1913,Physiology or Medicine,['Charles Robert Richet'],1
+1914,Chemistry,['Theodore William Richards'],1
+1914,Literature,,0
+1914,Peace,,0
+1914,Physics,['Max von Laue'],1
+1914,Physiology or Medicine,['Robert Bárány'],1
+1915,Chemistry,['Richard Martin Willstätter'],1
+1915,Literature,['Romain Rolland'],1
+1915,Peace,,0
+1915,Physics,"['Sir William Henry Bragg', 'William Lawrence Bragg']",2
+1915,Physiology or Medicine,,0
+1916,Chemistry,,0
+1916,Literature,['Carl Gustaf Verner von Heidenstam'],1
+1916,Peace,,0
+1916,Physics,,0
+1916,Physiology or Medicine,,0
+1917,Chemistry,,0
+1917,Literature,"['Karl Adolph Gjellerup', 'Henrik Pontoppidan']",2
+1917,Peace,['International Committee of the Red Cross'],1
+1917,Physics,['Charles Glover Barkla'],1
+1917,Physiology or Medicine,,0
+1918,Chemistry,['Fritz Haber'],1
+1918,Literature,,0
+1918,Peace,,0
+1918,Physics,['Max Karl Ernst Ludwig Planck'],1
+1918,Physiology or Medicine,,0
+1919,Chemistry,,0
+1919,Literature,['Carl Friedrich Georg Spitteler'],1
+1919,Peace,['Thomas Woodrow Wilson'],1
+1919,Physics,['Johannes Stark'],1
+1919,Physiology or Medicine,['Jules Bordet'],1
+1920,Chemistry,['Walther Hermann Nernst'],1
+1920,Literature,['Knut Pedersen Hamsun'],1
+1920,Peace,['Léon Victor Auguste Bourgeois'],1
+1920,Physics,['Charles Edouard Guillaume'],1
+1920,Physiology or Medicine,['Schack August Steenberg Krogh'],1
+1921,Chemistry,['Frederick Soddy'],1
+1921,Literature,['Anatole France'],1
+1921,Peace,"['Karl Hjalmar Branting', 'Christian Lous Lange']",2
+1921,Physics,['Albert Einstein'],1
+1921,Physiology or Medicine,,0
+1922,Chemistry,['Francis William Aston'],1
+1922,Literature,['Jacinto Benavente'],1
+1922,Peace,['Fridtjof Nansen'],1
+1922,Physics,['Niels Henrik David Bohr'],1
+1922,Physiology or Medicine,"['Archibald Vivian Hill', 'Otto Fritz Meyerhof']",2
+1923,Chemistry,['Fritz Pregl'],1
+1923,Literature,['William Butler Yeats'],1
+1923,Peace,,0
+1923,Physics,['Robert Andrews Millikan'],1
+1923,Physiology or Medicine,"['Frederick Grant Banting', 'John James Rickard Macleod']",2
+1924,Chemistry,,0
+1924,Literature,['Władysław Stanisław Reymont'],1
+1924,Peace,,0
+1924,Physics,['Karl Manne Georg Siegbahn'],1
+1924,Physiology or Medicine,['Willem Einthoven'],1
+1925,Chemistry,['Richard Adolf Zsigmondy'],1
+1925,Literature,['George Bernard Shaw'],1
+1925,Peace,"['Sir Austen Chamberlain', 'Charles Gates Dawes']",2
+1925,Physics,"['James Franck', 'Gustav Ludwig Hertz']",2
+1925,Physiology or Medicine,,0
+1926,Chemistry,['The (Theodor) Svedberg'],1
+1926,Literature,['Grazia Deledda'],1
+1926,Peace,"['Aristide Briand', 'Gustav Stresemann']",2
+1926,Physics,['Jean Baptiste Perrin'],1
+1926,Physiology or Medicine,['Johannes Andreas Grib Fibiger'],1
+1927,Chemistry,['Heinrich Otto Wieland'],1
+1927,Literature,['Henri Bergson'],1
+1927,Peace,"['Ferdinand Buisson', 'Ludwig Quidde']",2
+1927,Physics,"['Arthur Holly Compton', 'Charles Thomson Rees Wilson']",2
+1927,Physiology or Medicine,['Julius Wagner-Jauregg'],1
+1928,Chemistry,['Adolf Otto Reinhold Windaus'],1
+1928,Literature,['Sigrid Undset'],1
+1928,Peace,,0
+1928,Physics,['Owen Willans Richardson'],1
+1928,Physiology or Medicine,['Charles Jules Henri Nicolle'],1
+1929,Chemistry,"['Arthur Harden', 'Hans Karl August Simon von Euler-Chelpin']",2
+1929,Literature,['Thomas Mann'],1
+1929,Peace,['Frank Billings Kellogg'],1
+1929,Physics,['Prince Louis-Victor Pierre Raymond de Broglie'],1
+1929,Physiology or Medicine,"['Christiaan Eijkman', 'Sir Frederick Gowland Hopkins']",2
+1930,Chemistry,['Hans Fischer'],1
+1930,Literature,['Sinclair Lewis'],1
+1930,Peace,['Lars Olof Jonathan (Nathan) Söderblom'],1
+1930,Physics,['Sir Chandrasekhara Venkata Raman'],1
+1930,Physiology or Medicine,['Karl Landsteiner'],1
+1931,Chemistry,"['Carl Bosch', 'Friedrich Bergius']",2
+1931,Literature,['Erik Axel Karlfeldt'],1
+1931,Peace,"['Jane Addams', 'Nicholas Murray Butler']",2
+1931,Physics,,0
+1931,Physiology or Medicine,['Otto Heinrich Warburg'],1
+1932,Chemistry,['Irving Langmuir'],1
+1932,Literature,['John Galsworthy'],1
+1932,Peace,,0
+1932,Physics,['Werner Karl Heisenberg'],1
+1932,Physiology or Medicine,"['Sir Charles Scott Sherrington', 'Edgar Douglas Adrian']",2
+1933,Chemistry,,0
+1933,Literature,['Ivan Alekseyevich Bunin'],1
+1933,Peace,['Sir Norman Angell (Ralph Lane)'],1
+1933,Physics,"['Erwin Schrödinger', 'Paul Adrien Maurice Dirac']",2
+1933,Physiology or Medicine,['Thomas Hunt Morgan'],1
+1934,Chemistry,['Harold Clayton Urey'],1
+1934,Literature,['Luigi Pirandello'],1
+1934,Peace,['Arthur Henderson'],1
+1934,Physics,,0
+1934,Physiology or Medicine,"['George Hoyt Whipple', 'George Richards Minot', 'William Parry Murphy']",3
+1935,Chemistry,"['Frédéric Joliot', 'Irène Joliot-Curie']",2
+1935,Literature,,0
+1935,Peace,['Carl von Ossietzky'],1
+1935,Physics,['James Chadwick'],1
+1935,Physiology or Medicine,['Hans Spemann'],1
+1936,Chemistry,['Petrus (Peter) Josephus Wilhelmus Debye'],1
+1936,Literature,"[""Eugene Gladstone O'Neill""]",1
+1936,Peace,['Carlos Saavedra Lamas'],1
+1936,Physics,"['Victor Franz Hess', 'Carl David Anderson']",2
+1936,Physiology or Medicine,"['Sir Henry Hallett Dale', 'Otto Loewi']",2
+1937,Chemistry,"['Walter Norman Haworth', 'Paul Karrer']",2
+1937,Literature,['Roger Martin du Gard'],1
+1937,Peace,"['Edgar Algernon Robert Gascoyne-Cecil, 1st Viscount Cecil of Chelwood']",1
+1937,Physics,"['Clinton Joseph Davisson', 'George Paget Thomson']",2
+1937,Physiology or Medicine,['Albert von Szent-Györgyi Nagyrápolt'],1
+1938,Chemistry,['Richard Kuhn'],1
+1938,Literature,['Pearl Buck'],1
+1938,Peace,['Nansen International Office for Refugees'],1
+1938,Physics,['Enrico Fermi'],1
+1938,Physiology or Medicine,['Corneille Jean François Heymans'],1
+1939,Chemistry,"['Adolf Friedrich Johann Butenandt', 'Leopold Ruzicka']",2
+1939,Literature,['Frans Eemil Sillanpää'],1
+1939,Peace,,0
+1939,Physics,['Ernest Orlando Lawrence'],1
+1939,Physiology or Medicine,['Gerhard Domagk'],1
+1940,Chemistry,,0
+1940,Literature,,0
+1940,Peace,,0
+1940,Physics,,0
+1940,Physiology or Medicine,,0
+1941,Chemistry,,0
+1941,Literature,,0
+1941,Peace,,0
+1941,Physics,,0
+1941,Physiology or Medicine,,0
+1942,Chemistry,,0
+1942,Literature,,0
+1942,Peace,,0
+1942,Physics,,0
+1942,Physiology or Medicine,,0
+1943,Chemistry,['George de Hevesy'],1
+1943,Literature,,0
+1943,Peace,,0
+1943,Physics,['Otto Stern'],1
+1943,Physiology or Medicine,"['Henrik Carl Peter Dam', 'Edward Adelbert Doisy']",2
+1944,Chemistry,['Otto Hahn'],1
+1944,Literature,['Johannes Vilhelm Jensen'],1
+1944,Peace,['International Committee of the Red Cross'],1
+1944,Physics,['Isidor Isaac Rabi'],1
+1944,Physiology or Medicine,"['Joseph Erlanger', 'Herbert Spencer Gasser']",2
+1945,Chemistry,['Artturi Ilmari Virtanen'],1
+1945,Literature,['Gabriela Mistral'],1
+1945,Peace,['Cordell Hull'],1
+1945,Physics,['Wolfgang Pauli'],1
+1945,Physiology or Medicine,"['Sir Alexander Fleming', 'Ernst Boris Chain', 'Sir Howard Walter Florey']",3
+1946,Chemistry,"['James Batcheller Sumner', 'John Howard Northrop', 'Wendell Meredith Stanley']",3
+1946,Literature,['Hermann Hesse'],1
+1946,Peace,"['Emily Greene Balch', 'John Raleigh Mott']",2
+1946,Physics,['Percy Williams Bridgman'],1
+1946,Physiology or Medicine,['Hermann Joseph Muller'],1
+1947,Chemistry,['Sir Robert Robinson'],1
+1947,Literature,['André Paul Guillaume Gide'],1
+1947,Peace,"['Friends Service Council', 'American Friends Service Committee']",2
+1947,Physics,['Sir Edward Victor Appleton'],1
+1947,Physiology or Medicine,"['Carl Ferdinand Cori', 'Gerty Theresa Cori, née Radnitz', 'Bernardo Alberto Houssay']",3
+1948,Chemistry,['Arne Wilhelm Kaurin Tiselius'],1
+1948,Literature,['Thomas Stearns Eliot'],1
+1948,Peace,,0
+1948,Physics,['Patrick Maynard Stuart Blackett'],1
+1948,Physiology or Medicine,['Paul Hermann Müller'],1
+1949,Chemistry,['William Francis Giauque'],1
+1949,Literature,['William Faulkner'],1
+1949,Peace,"['John Boyd Orr, Baron Boyd-Orr of Brechin Mearn']",1
+1949,Physics,['Hideki Yukawa'],1
+1949,Physiology or Medicine,"['Walter Rudolf Hess', 'António Caetano de Abreu Freire Egas Moniz']",2
+1950,Chemistry,"['Otto Paul Hermann Diels', 'Kurt Alder']",2
+1950,Literature,['Earl (Bertrand Arthur William) Russell'],1
+1950,Peace,['Ralph Bunche'],1
+1950,Physics,['Cecil Frank Powell'],1
+1950,Physiology or Medicine,"['Edward Calvin Kendall', 'Tadeus Reichstein', 'Philip Showalter Hench']",3
+1951,Chemistry,"['Edwin Mattison McMillan', 'Glenn Theodore Seaborg']",2
+1951,Literature,['Pär Fabian Lagerkvist'],1
+1951,Peace,['Léon Jouhaux'],1
+1951,Physics,"['Sir John Douglas Cockcroft', 'Ernest Thomas Sinton Walton']",2
+1951,Physiology or Medicine,['Max Theiler'],1
+1952,Chemistry,"['Archer John Porter Martin', 'Richard Laurence Millington Synge']",2
+1952,Literature,['François Mauriac'],1
+1952,Peace,['Albert Schweitzer'],1
+1952,Physics,"['Felix Bloch', 'Edward Mills Purcell']",2
+1952,Physiology or Medicine,['Selman Abraham Waksman'],1
+1953,Chemistry,['Hermann Staudinger'],1
+1953,Literature,['Sir Winston Leonard Spencer Churchill'],1
+1953,Peace,['George Catlett Marshall'],1
+1953,Physics,['Frits Zernike'],1
+1953,Physiology or Medicine,"['Hans Adolf Krebs', 'Fritz Albert Lipmann']",2
+1954,Chemistry,['Linus Carl Pauling'],1
+1954,Literature,['Ernest Miller Hemingway'],1
+1954,Peace,['Office of the United Nations High Commissioner for Refugees'],1
+1954,Physics,"['Max Born', 'Walther Bothe']",2
+1954,Physiology or Medicine,"['John Franklin Enders', 'Thomas Huckle Weller', 'Frederick Chapman Robbins']",3
+1955,Chemistry,['Vincent du Vigneaud'],1
+1955,Literature,['Halldór Kiljan Laxness'],1
+1955,Peace,,0
+1955,Physics,"['Willis Eugene Lamb', 'Polykarp Kusch']",2
+1955,Physiology or Medicine,['Axel Hugo Theodor Theorell'],1
+1956,Chemistry,"['Sir Cyril Norman Hinshelwood', 'Nikolay Nikolaevich Semenov']",2
+1956,Literature,['Juan Ramón Jiménez'],1
+1956,Peace,,0
+1956,Physics,"['William Bradford Shockley', 'John Bardeen', 'Walter Houser Brattain']",3
+1956,Physiology or Medicine,"['André Frédéric Cournand', 'Werner Forssmann', 'Dickinson W. Richards']",3
+1957,Chemistry,['Lord (Alexander R.) Todd'],1
+1957,Literature,['Albert Camus'],1
+1957,Peace,['Lester Bowles Pearson'],1
+1957,Physics,"['Chen Ning Yang', 'Tsung-Dao (T.D.) Lee']",2
+1957,Physiology or Medicine,['Daniel Bovet'],1
+1958,Chemistry,['Frederick Sanger'],1
+1958,Literature,['Boris Leonidovich Pasternak'],1
+1958,Peace,['Georges Pire'],1
+1958,Physics,"['Pavel Alekseyevich Cherenkov', 'Il´ja Mikhailovich Frank', 'Igor Yevgenyevich Tamm']",3
+1958,Physiology or Medicine,"['George Wells Beadle', 'Edward Lawrie Tatum', 'Joshua Lederberg']",3
+1959,Chemistry,['Jaroslav Heyrovsky'],1
+1959,Literature,['Salvatore Quasimodo'],1
+1959,Peace,['Philip J. Noel-Baker'],1
+1959,Physics,"['Emilio Gino Segrè', 'Owen Chamberlain']",2
+1959,Physiology or Medicine,"['Severo Ochoa', 'Arthur Kornberg']",2
+1960,Chemistry,['Willard Frank Libby'],1
+1960,Literature,['Saint-John Perse'],1
+1960,Peace,['Albert John Lutuli'],1
+1960,Physics,['Donald Arthur Glaser'],1
+1960,Physiology or Medicine,"['Sir Frank Macfarlane Burnet', 'Peter Brian Medawar']",2
+1961,Chemistry,['Melvin Calvin'],1
+1961,Literature,['Ivo Andrić'],1
+1961,Peace,['Dag Hjalmar Agne Carl Hammarskjöld'],1
+1961,Physics,"['Robert Hofstadter', 'Rudolf Ludwig Mössbauer']",2
+1961,Physiology or Medicine,['Georg von Békésy'],1
+1962,Chemistry,"['Max Ferdinand Perutz', 'John Cowdery Kendrew']",2
+1962,Literature,['John Steinbeck'],1
+1962,Peace,['Linus Carl Pauling'],1
+1962,Physics,['Lev Davidovich Landau'],1
+1962,Physiology or Medicine,"['Francis Harry Compton Crick', 'James Dewey Watson', 'Maurice Hugh Frederick Wilkins']",3
+1963,Chemistry,"['Karl Ziegler', 'Giulio Natta']",2
+1963,Literature,['Giorgos Seferis'],1
+1963,Peace,"['International Committee of the Red Cross', 'League of Red Cross Societies']",2
+1963,Physics,"['Eugene Paul Wigner', 'Maria Goeppert Mayer', 'J. Hans D. Jensen']",3
+1963,Physiology or Medicine,"['Sir John Carew Eccles', 'Alan Lloyd Hodgkin', 'Andrew Fielding Huxley']",3
+1964,Chemistry,['Dorothy Crowfoot Hodgkin'],1
+1964,Literature,['Jean-Paul Sartre'],1
+1964,Peace,['Martin Luther King Jr.'],1
+1964,Physics,"['Charles Hard Townes', 'Nicolay Gennadiyevich Basov', 'Aleksandr Mikhailovich Prokhorov']",3
+1964,Physiology or Medicine,"['Konrad Bloch', 'Feodor Lynen']",2
+1965,Chemistry,['Robert Burns Woodward'],1
+1965,Literature,['Mikhail Aleksandrovich Sholokhov'],1
+1965,Peace,"[""United Nations Children's Fund""]",1
+1965,Physics,"['Sin-Itiro Tomonaga', 'Julian Schwinger', 'Richard P. Feynman']",3
+1965,Physiology or Medicine,"['François Jacob', 'André Lwoff', 'Jacques Monod']",3
+1966,Chemistry,['Robert S. Mulliken'],1
+1966,Literature,"['Shmuel Yosef Agnon', 'Nelly Sachs']",2
+1966,Peace,,0
+1966,Physics,['Alfred Kastler'],1
+1966,Physiology or Medicine,"['Peyton Rous', 'Charles Brenton Huggins']",2
+1967,Chemistry,"['Manfred Eigen', 'Ronald George Wreyford Norrish', 'George Porter']",3
+1967,Literature,['Miguel Angel Asturias'],1
+1967,Peace,,0
+1967,Physics,['Hans Albrecht Bethe'],1
+1967,Physiology or Medicine,"['Ragnar Granit', 'Haldan Keffer Hartline', 'George Wald']",3
+1968,Chemistry,['Lars Onsager'],1
+1968,Literature,['Yasunari Kawabata'],1
+1968,Peace,['René Cassin'],1
+1968,Physics,['Luis Walter Alvarez'],1
+1968,Physiology or Medicine,"['Robert W. Holley', 'Har Gobind Khorana', 'Marshall W. Nirenberg']",3
+1969,Chemistry,"['Derek H. R. Barton', 'Odd Hassel']",2
+1969,Economic Sciences,"['Ragnar Frisch', 'Jan Tinbergen']",2
+1969,Literature,['Samuel Beckett'],1
+1969,Peace,['International Labour Organization'],1
+1969,Physics,['Murray Gell-Mann'],1
+1969,Physiology or Medicine,"['Max Delbrück', 'Alfred D. Hershey', 'Salvador E. Luria']",3
+1970,Chemistry,['Luis F. Leloir'],1
+1970,Economic Sciences,['Paul A. Samuelson'],1
+1970,Literature,['Aleksandr Isayevich Solzhenitsyn'],1
+1970,Peace,['Norman Ernest Borlaug'],1
+1970,Physics,"['Hannes Olof Gösta Alfvén', 'Louis Eugène Félix Néel']",2
+1970,Physiology or Medicine,"['Sir Bernard Katz', 'Ulf von Euler', 'Julius Axelrod']",3
+1971,Chemistry,['Gerhard Herzberg'],1
+1971,Economic Sciences,['Simon Kuznets'],1
+1971,Literature,['Pablo Neruda'],1
+1971,Peace,['Willy Brandt'],1
+1971,Physics,['Dennis Gabor'],1
+1971,Physiology or Medicine,"['Earl W. Sutherland, Jr.']",1
+1972,Chemistry,"['Christian B. Anfinsen', 'Stanford Moore', 'William H. Stein']",3
+1972,Economic Sciences,"['John R. Hicks', 'Kenneth J. Arrow']",2
+1972,Literature,['Heinrich Böll'],1
+1972,Peace,,0
+1972,Physics,"['John Bardeen', 'Leon Neil Cooper', 'John Robert Schrieffer']",3
+1972,Physiology or Medicine,"['Gerald M. Edelman', 'Rodney R. Porter']",2
+1973,Chemistry,"['Ernst Otto Fischer', 'Geoffrey Wilkinson']",2
+1973,Economic Sciences,['Wassily Wassilyevich Leontief'],1
+1973,Literature,['Patrick White'],1
+1973,Peace,"['Henry Alfred Kissinger', 'Le Duc Tho ']",2
+1973,Physics,"['Leo Esaki', 'Ivar Giaever', 'Brian David Josephson']",3
+1973,Physiology or Medicine,"['Karl von Frisch', 'Konrad Lorenz', 'Nikolaas Tinbergen']",3
+1974,Chemistry,['Paul J. Flory'],1
+1974,Economic Sciences,"['Gunnar Myrdal', 'Friedrich August von Hayek']",2
+1974,Literature,"['Eyvind Johnson', 'Harry Martinson']",2
+1974,Peace,"['Seán MacBride', 'Eisaku Satō']",2
+1974,Physics,"['Sir Martin Ryle', 'Antony Hewish']",2
+1974,Physiology or Medicine,"['Albert Claude', 'Christian de Duve', 'George E. Palade']",3
+1975,Chemistry,"['John Warcup Cornforth', 'Vladimir Prelog']",2
+1975,Economic Sciences,"['Leonid Vitaliyevich Kantorovich', 'Tjalling C. Koopmans']",2
+1975,Literature,['Eugenio Montale'],1
+1975,Peace,['Andrei Dmitrievich Sakharov'],1
+1975,Physics,"['Aage Niels Bohr', 'Ben Roy Mottelson', 'Leo James Rainwater']",3
+1975,Physiology or Medicine,"['David Baltimore', 'Renato Dulbecco', 'Howard Martin Temin']",3
+1976,Chemistry,['William N. Lipscomb'],1
+1976,Economic Sciences,['Milton Friedman'],1
+1976,Literature,['Saul Bellow'],1
+1976,Peace,"['Elizabeth Williams', 'Mairead Corrigan']",2
+1976,Physics,"['Burton Richter', 'Samuel Chao Chung Ting']",2
+1976,Physiology or Medicine,"['Baruch S. Blumberg', 'D. Carleton Gajdusek']",2
+1977,Chemistry,['Ilya Romanovich Prigogine'],1
+1977,Economic Sciences,"['Bertil Ohlin', 'James E. Meade']",2
+1977,Literature,['Vicente Aleixandre'],1
+1977,Peace,['Amnesty International'],1
+1977,Physics,"['Philip Warren Anderson', 'Sir Nevill Francis Mott', 'John Hasbrouck Van Vleck']",3
+1977,Physiology or Medicine,"['Roger Guillemin', 'Andrew V. Schally', 'Rosalyn Yalow']",3
+1978,Chemistry,['Peter D. Mitchell'],1
+1978,Economic Sciences,['Herbert A. Simon'],1
+1978,Literature,['Isaac Bashevis Singer'],1
+1978,Peace,"['Mohamed Anwar al-Sadat', 'Menachem Begin']",2
+1978,Physics,"['Pyotr Leonidovich Kapitsa', 'Arno Allan Penzias', 'Robert Woodrow Wilson']",3
+1978,Physiology or Medicine,"['Werner Arber', 'Daniel Nathans', 'Hamilton O. Smith']",3
+1979,Chemistry,"['Herbert C. Brown', 'Georg Wittig']",2
+1979,Economic Sciences,"['Theodore W. Schultz', 'Sir Arthur Lewis']",2
+1979,Literature,['Odysseus Elytis'],1
+1979,Peace,['Mother Teresa'],1
+1979,Physics,"['Sheldon Lee Glashow', 'Abdus Salam', 'Steven Weinberg']",3
+1979,Physiology or Medicine,"['Allan M. Cormack', 'Godfrey N. Hounsfield']",2
+1980,Chemistry,"['Paul Berg', 'Walter Gilbert', 'Frederick Sanger']",3
+1980,Economic Sciences,['Lawrence R. Klein'],1
+1980,Literature,['Czesław Miłosz'],1
+1980,Peace,['Adolfo Pérez Esquivel'],1
+1980,Physics,"['James Watson Cronin', 'Val Logsdon Fitch']",2
+1980,Physiology or Medicine,"['Baruj Benacerraf', 'Jean Dausset', 'George D. Snell']",3
+1981,Chemistry,"['Kenichi Fukui', 'Roald Hoffmann']",2
+1981,Economic Sciences,['James Tobin'],1
+1981,Literature,['Elias Canetti'],1
+1981,Peace,['Office of the United Nations High Commissioner for Refugees'],1
+1981,Physics,"['Nicolaas Bloembergen', 'Arthur Leonard Schawlow', 'Kai M. Siegbahn']",3
+1981,Physiology or Medicine,"['Roger W. Sperry', 'David H. Hubel', 'Torsten N. Wiesel']",3
+1982,Chemistry,['Aaron Klug'],1
+1982,Economic Sciences,['George J. Stigler'],1
+1982,Literature,['Gabriel García Márquez'],1
+1982,Peace,"['Alva Myrdal', 'Alfonso García Robles']",2
+1982,Physics,['Kenneth G. Wilson'],1
+1982,Physiology or Medicine,"['Sune K. Bergström', 'Bengt I. Samuelsson', 'John R. Vane']",3
+1983,Chemistry,['Henry Taube'],1
+1983,Economic Sciences,['Gerard Debreu'],1
+1983,Literature,['William Golding'],1
+1983,Peace,['Lech Wałęsa'],1
+1983,Physics,"['Subrahmanyan Chandrasekhar', 'William Alfred Fowler']",2
+1983,Physiology or Medicine,['Barbara McClintock'],1
+1984,Chemistry,['Robert Bruce Merrifield'],1
+1984,Economic Sciences,['Richard Stone'],1
+1984,Literature,['Jaroslav Seifert'],1
+1984,Peace,['Desmond Mpilo Tutu'],1
+1984,Physics,"['Carlo Rubbia', 'Simon van der Meer']",2
+1984,Physiology or Medicine,"['Niels K. Jerne', 'Georges J.F. Köhler', 'César Milstein']",3
+1985,Chemistry,"['Herbert A. Hauptman', 'Jerome Karle']",2
+1985,Economic Sciences,['Franco Modigliani'],1
+1985,Literature,['Claude Simon'],1
+1985,Peace,['International Physicians for the Prevention of Nuclear War'],1
+1985,Physics,['Klaus von Klitzing'],1
+1985,Physiology or Medicine,"['Michael S. Brown', 'Joseph L. Goldstein']",2
+1986,Chemistry,"['Dudley R. Herschbach', 'Yuan T. Lee', 'John C. Polanyi']",3
+1986,Economic Sciences,['James M. Buchanan Jr.'],1
+1986,Literature,['Wole Soyinka'],1
+1986,Peace,['Elie Wiesel'],1
+1986,Physics,"['Ernst Ruska', 'Gerd Binnig', 'Heinrich Rohrer']",3
+1986,Physiology or Medicine,"['Stanley Cohen', 'Rita Levi-Montalcini']",2
+1987,Chemistry,"['Donald J. Cram', 'Jean-Marie Lehn', 'Charles J. Pedersen']",3
+1987,Economic Sciences,['Robert M. Solow'],1
+1987,Literature,['Joseph Brodsky'],1
+1987,Peace,['Oscar Arias Sánchez'],1
+1987,Physics,"['J. Georg Bednorz', 'K. Alexander Müller']",2
+1987,Physiology or Medicine,['Susumu Tonegawa'],1
+1988,Chemistry,"['Johann Deisenhofer', 'Robert Huber', 'Hartmut Michel']",3
+1988,Economic Sciences,['Maurice Allais'],1
+1988,Literature,['Naguib Mahfouz'],1
+1988,Peace,['United Nations Peacekeeping Forces'],1
+1988,Physics,"['Leon M. Lederman', 'Melvin Schwartz', 'Jack Steinberger']",3
+1988,Physiology or Medicine,"['Sir James W. Black', 'Gertrude B. Elion', 'George H. Hitchings']",3
+1989,Chemistry,"['Sidney Altman', 'Thomas R. Cech']",2
+1989,Economic Sciences,['Trygve Haavelmo'],1
+1989,Literature,['Camilo José Cela'],1
+1989,Peace,['The 14th Dalai Lama (Tenzin Gyatso)'],1
+1989,Physics,"['Norman F. Ramsey', 'Hans G. Dehmelt', 'Wolfgang Paul']",3
+1989,Physiology or Medicine,"['J. Michael Bishop', 'Harold E. Varmus']",2
+1990,Chemistry,['Elias James Corey'],1
+1990,Economic Sciences,"['Harry M. Markowitz', 'Merton H. Miller', 'William F. Sharpe']",3
+1990,Literature,['Octavio Paz'],1
+1990,Peace,['Mikhail Sergeyevich Gorbachev'],1
+1990,Physics,"['Jerome I. Friedman', 'Henry W. Kendall', 'Richard E. Taylor']",3
+1990,Physiology or Medicine,"['Joseph E. Murray', 'E. Donnall Thomas']",2
+1991,Chemistry,['Richard R. Ernst'],1
+1991,Economic Sciences,['Ronald H. Coase'],1
+1991,Literature,['Nadine Gordimer'],1
+1991,Peace,['Aung San Suu Kyi'],1
+1991,Physics,['Pierre-Gilles de Gennes'],1
+1991,Physiology or Medicine,"['Erwin Neher', 'Bert Sakmann']",2
+1992,Chemistry,['Rudolph A. Marcus'],1
+1992,Economic Sciences,['Gary S. Becker'],1
+1992,Literature,['Derek Walcott'],1
+1992,Peace,['Rigoberta Menchú Tum'],1
+1992,Physics,['Georges Charpak'],1
+1992,Physiology or Medicine,"['Edmond H. Fischer', 'Edwin G. Krebs']",2
+1993,Chemistry,"['Kary B. Mullis', 'Michael Smith']",2
+1993,Economic Sciences,"['Robert W. Fogel', 'Douglass C. North']",2
+1993,Literature,['Toni Morrison'],1
+1993,Peace,"['Nelson Rolihlahla Mandela', 'Frederik Willem de Klerk']",2
+1993,Physics,"['Russell A. Hulse', 'Joseph H. Taylor Jr.']",2
+1993,Physiology or Medicine,"['Richard J. Roberts', 'Phillip A. Sharp']",2
+1994,Chemistry,['George A. Olah'],1
+1994,Economic Sciences,"['John C. Harsanyi', 'John F. Nash Jr.', 'Reinhard Selten']",3
+1994,Literature,['Kenzaburo Oe'],1
+1994,Peace,"['Yasser Arafat', 'Shimon Peres', 'Yitzhak Rabin']",3
+1994,Physics,"['Bertram N. Brockhouse', 'Clifford G. Shull']",2
+1994,Physiology or Medicine,"['Alfred G. Gilman', 'Martin Rodbell']",2
+1995,Chemistry,"['Paul J. Crutzen', 'Mario J. Molina', 'F. Sherwood Rowland']",3
+1995,Economic Sciences,['Robert E. Lucas Jr.'],1
+1995,Literature,['Seamus Heaney'],1
+1995,Peace,"['Joseph Rotblat', 'Pugwash Conferences on Science and World Affairs']",2
+1995,Physics,"['Martin L. Perl', 'Frederick Reines']",2
+1995,Physiology or Medicine,"['Edward B. Lewis', 'Christiane Nüsslein-Volhard', 'Eric F. Wieschaus']",3
+1996,Chemistry,"['Robert F. Curl Jr.', 'Sir Harold W. Kroto', 'Richard E. Smalley']",3
+1996,Economic Sciences,"['James A. Mirrlees', 'William Vickrey']",2
+1996,Literature,['Wisława Szymborska'],1
+1996,Peace,"['Carlos Filipe Ximenes Belo', 'José Ramos-Horta']",2
+1996,Physics,"['David M. Lee', 'Douglas D. Osheroff', 'Robert C. Richardson']",3
+1996,Physiology or Medicine,"['Peter C. Doherty', 'Rolf M. Zinkernagel']",2
+1997,Chemistry,"['Paul D. Boyer', 'John E. Walker', 'Jens C. Skou']",3
+1997,Economic Sciences,"['Robert C. Merton', 'Myron S. Scholes']",2
+1997,Literature,['Dario Fo'],1
+1997,Peace,"['International Campaign to Ban Landmines', 'Jody Williams']",2
+1997,Physics,"['Steven Chu', 'Claude Cohen-Tannoudji', 'William D. Phillips']",3
+1997,Physiology or Medicine,['Stanley B. Prusiner'],1
+1998,Chemistry,"['Walter Kohn', 'John A. Pople']",2
+1998,Economic Sciences,['Amartya Sen'],1
+1998,Literature,['José Saramago'],1
+1998,Peace,"['John Hume', 'David Trimble']",2
+1998,Physics,"['Robert B. Laughlin', 'Horst L. Störmer', 'Daniel C. Tsui']",3
+1998,Physiology or Medicine,"['Robert F. Furchgott', 'Louis J. Ignarro', 'Ferid Murad']",3
+1999,Chemistry,['Ahmed H. Zewail'],1
+1999,Economic Sciences,['Robert A. Mundell'],1
+1999,Literature,['Günter Grass'],1
+1999,Peace,['Doctors Without Borders'],1
+1999,Physics,"[""Gerardus 't Hooft"", 'Martinus J.G. Veltman']",2
+1999,Physiology or Medicine,['Günter Blobel'],1
+2000,Chemistry,"['Alan J. Heeger', 'Alan G. MacDiarmid', 'Hideki Shirakawa']",3
+2000,Economic Sciences,"['James J. Heckman', 'Daniel L. McFadden']",2
+2000,Literature,['Gao Xingjian'],1
+2000,Peace,['Kim Dae-jung'],1
+2000,Physics,"['Zhores I. Alferov', 'Herbert Kroemer', 'Jack S. Kilby']",3
+2000,Physiology or Medicine,"['Arvid Carlsson', 'Paul Greengard', 'Eric R. Kandel']",3
+2001,Chemistry,"['William S. Knowles', 'Ryoji Noyori', 'K. Barry Sharpless']",3
+2001,Economic Sciences,"['George A. Akerlof', 'A. Michael Spence', 'Joseph E. Stiglitz']",3
+2001,Literature,['Sir Vidiadhar Surajprasad Naipaul'],1
+2001,Peace,"['United Nations', 'Kofi Atta Annan']",2
+2001,Physics,"['Eric A. Cornell', 'Wolfgang Ketterle', 'Carl E. Wieman']",3
+2001,Physiology or Medicine,"['Leland H. Hartwell', 'Tim Hunt', 'Sir Paul M. Nurse']",3
+2002,Chemistry,"['John B. Fenn', 'Koichi Tanaka', 'Kurt Wüthrich']",3
+2002,Economic Sciences,"['Daniel Kahneman', 'Vernon L. Smith']",2
+2002,Literature,['Imre Kertész'],1
+2002,Peace,['James Earl Carter'],1
+2002,Physics,"['Raymond Davis Jr.', 'Masatoshi Koshiba', 'Riccardo Giacconi']",3
+2002,Physiology or Medicine,"['Sydney Brenner', 'H. Robert Horvitz', 'John E. Sulston']",3
+2003,Chemistry,"['Peter Agre', 'Roderick MacKinnon']",2
+2003,Economic Sciences,"['Robert F. Engle III', 'Clive W.J. Granger']",2
+2003,Literature,['John M. Coetzee'],1
+2003,Peace,['Shirin Ebadi'],1
+2003,Physics,"['Alexei Alexeyevich Abrikosov', 'Vitaly Lazarevich Ginzburg', 'Anthony J. Leggett']",3
+2003,Physiology or Medicine,"['Paul C. Lauterbur', 'Sir Peter Mansfield']",2
+2004,Chemistry,"['Aaron Ciechanover', 'Avram Hershko', 'Irwin Rose']",3
+2004,Economic Sciences,"['Finn E. Kydland', 'Edward C. Prescott']",2
+2004,Literature,['Elfriede Jelinek'],1
+2004,Peace,['Wangari Muta Maathai'],1
+2004,Physics,"['David J. Gross', 'H. David Politzer', 'Frank Wilczek']",3
+2004,Physiology or Medicine,"['Richard Axel', 'Linda B. Buck']",2
+2005,Chemistry,"['Yves Chauvin', 'Robert H. Grubbs', 'Richard R. Schrock']",3
+2005,Economic Sciences,"['Robert J. Aumann', 'Thomas C. Schelling']",2
+2005,Literature,['Harold Pinter'],1
+2005,Peace,"['International Atomic Energy Agency', 'Mohamed ElBaradei']",2
+2005,Physics,"['Roy J. Glauber', 'John L. Hall', 'Theodor W. Hänsch']",3
+2005,Physiology or Medicine,"['Barry J. Marshall', 'J. Robin Warren']",2
+2006,Chemistry,['Roger D. Kornberg'],1
+2006,Economic Sciences,['Edmund S. Phelps'],1
+2006,Literature,['Orhan Pamuk'],1
+2006,Peace,"['Muhammad Yunus', 'Grameen Bank']",2
+2006,Physics,"['John C. Mather', 'George F. Smoot']",2
+2006,Physiology or Medicine,"['Andrew Z. Fire', 'Craig C. Mello']",2
+2007,Chemistry,['Gerhard Ertl'],1
+2007,Economic Sciences,"['Leonid Hurwicz', 'Eric S. Maskin', 'Roger B. Myerson']",3
+2007,Literature,['Doris Lessing'],1
+2007,Peace,"['Intergovernmental Panel on Climate Change', 'Albert Arnold (Al) Gore  Jr.']",2
+2007,Physics,"['Albert Fert', 'Peter Grünberg']",2
+2007,Physiology or Medicine,"['Mario R. Capecchi', 'Sir Martin J. Evans', 'Oliver Smithies']",3
+2008,Chemistry,"['Osamu Shimomura', 'Martin Chalfie', 'Roger Y. Tsien']",3
+2008,Economic Sciences,['Paul Krugman'],1
+2008,Literature,['Jean-Marie Gustave Le Clézio'],1
+2008,Peace,['Martti Ahtisaari'],1
+2008,Physics,"['Yoichiro Nambu', 'Makoto Kobayashi', 'Toshihide Maskawa']",3
+2008,Physiology or Medicine,"['Harald zur Hausen', 'Françoise Barré-Sinoussi', 'Luc Montagnier']",3
+2009,Chemistry,"['Venkatraman Ramakrishnan', 'Thomas A. Steitz', 'Ada E. Yonath']",3
+2009,Economic Sciences,"['Elinor Ostrom', 'Oliver E. Williamson']",2
+2009,Literature,['Herta Müller'],1
+2009,Peace,['Barack Hussein Obama'],1
+2009,Physics,"['Charles Kuen Kao', 'Willard S. Boyle', 'George E. Smith']",3
+2009,Physiology or Medicine,"['Elizabeth H. Blackburn', 'Carol W. Greider', 'Jack W. Szostak']",3
+2010,Chemistry,"['Richard F. Heck', 'Ei-ichi Negishi', 'Akira Suzuki']",3
+2010,Economic Sciences,"['Peter A. Diamond', 'Dale T. Mortensen', 'Christopher A. Pissarides']",3
+2010,Literature,['Mario Vargas Llosa'],1
+2010,Peace,['Liu Xiaobo'],1
+2010,Physics,"['Andre Geim', 'Konstantin Novoselov']",2
+2010,Physiology or Medicine,['Robert G. Edwards'],1
+2011,Chemistry,['Dan Shechtman'],1
+2011,Economic Sciences,"['Thomas J. Sargent', 'Christopher A. Sims']",2
+2011,Literature,['Tomas Tranströmer'],1
+2011,Peace,"['Ellen Johnson Sirleaf', 'Leymah Gbowee', 'Tawakkol Karman']",3
+2011,Physics,"['Saul Perlmutter', 'Brian P. Schmidt', 'Adam G. Riess']",3
+2011,Physiology or Medicine,"['Bruce A. Beutler', 'Jules A. Hoffmann', 'Ralph M. Steinman']",3
+2012,Chemistry,"['Robert J. Lefkowitz', 'Brian K. Kobilka']",2
+2012,Economic Sciences,"['Alvin E. Roth', 'Lloyd S. Shapley']",2
+2012,Literature,['Mo Yan'],1
+2012,Peace,['European Union'],1
+2012,Physics,"['Serge Haroche', 'David J. Wineland']",2
+2012,Physiology or Medicine,"['Sir John B. Gurdon', 'Shinya Yamanaka']",2
+2013,Chemistry,"['Martin Karplus', 'Michael Levitt', 'Arieh Warshel']",3
+2013,Economic Sciences,"['Eugene F. Fama', 'Lars Peter Hansen', 'Robert J. Shiller']",3
+2013,Literature,['Alice Munro'],1
+2013,Peace,['Organisation for the Prohibition of Chemical Weapons'],1
+2013,Physics,"['François Englert', 'Peter W. Higgs']",2
+2013,Physiology or Medicine,"['James E. Rothman', 'Randy W. Schekman', 'Thomas C. Südhof']",3
+2014,Chemistry,"['Eric Betzig', 'Stefan W. Hell', 'William E. Moerner']",3
+2014,Economic Sciences,['Jean Tirole'],1
+2014,Literature,['Patrick Modiano'],1
+2014,Peace,"['Kailash Satyarthi', 'Malala Yousafzai']",2
+2014,Physics,"['Isamu Akasaki', 'Hiroshi Amano', 'Shuji Nakamura']",3
+2014,Physiology or Medicine,"[""John O'Keefe"", 'May-Britt Moser', 'Edvard I. Moser']",3
+2015,Chemistry,"['Tomas Lindahl', 'Paul Modrich', 'Aziz Sancar']",3
+2015,Economic Sciences,['Angus Deaton'],1
+2015,Literature,['Svetlana Alexievich'],1
+2015,Peace,['National Dialogue Quartet'],1
+2015,Physics,"['Takaaki Kajita', 'Arthur B. McDonald']",2
+2015,Physiology or Medicine,"['William C. Campbell', 'Satoshi Ōmura', 'Tu Youyou']",3
+2016,Chemistry,"['Jean-Pierre Sauvage', 'Sir J. Fraser Stoddart', 'Bernard L. Feringa']",3
+2016,Economic Sciences,"['Oliver Hart', 'Bengt Holmström']",2
+2016,Literature,['Bob Dylan'],1
+2016,Peace,['Juan Manuel Santos'],1
+2016,Physics,"['David J. Thouless', 'F. Duncan M. Haldane', 'J. Michael Kosterlitz']",3
+2016,Physiology or Medicine,['Yoshinori Ohsumi'],1
+2017,Chemistry,"['Jacques Dubochet', 'Joachim Frank', 'Richard Henderson']",3
+2017,Economic Sciences,['Richard H. Thaler'],1
+2017,Literature,['Kazuo Ishiguro'],1
+2017,Peace,['International Campaign to Abolish Nuclear Weapons'],1
+2017,Physics,"['Rainer Weiss', 'Barry C. Barish', 'Kip S. Thorne']",3
+2017,Physiology or Medicine,"['Jeffrey C. Hall', 'Michael Rosbash', 'Michael W. Young']",3
+2018,Chemistry,"['Frances H. Arnold', 'George P. Smith', 'Sir Gregory P. Winter']",3
+2018,Economic Sciences,"['William D. Nordhaus', 'Paul M. Romer']",2
+2018,Literature,['Olga Tokarczuk'],1
+2018,Peace,"['Denis Mukwege', 'Nadia Murad Basee Taha']",2
+2018,Physics,"['Arthur Ashkin', 'Gérard Mourou', 'Donna Strickland']",3
+2018,Physiology or Medicine,"['James P. Allison', 'Tasuku Honjo']",2
+2019,Chemistry,"['John B. Goodenough', 'M. Stanley Whittingham', 'Akira Yoshino']",3
+2019,Economic Sciences,"['Abhijit Banerjee', 'Esther Duflo', 'Michael Kremer']",3
+2019,Literature,['Peter Handke'],1
+2019,Peace,['Abiy Ahmed Ali'],1
+2019,Physics,"['James Peebles', 'Michel Mayor', 'Didier Queloz']",3
+2019,Physiology or Medicine,"['William G. Kaelin Jr', 'Sir Peter J. Ratcliffe', 'Gregg L. Semenza']",3
+2020,Chemistry,"['Emmanuelle Charpentier', 'Jennifer A. Doudna']",2
+2020,Economic Sciences,"['Paul R. Milgrom', 'Robert B. Wilson']",2
+2020,Literature,['Louise Glück'],1
+2020,Peace,['World Food Programme'],1
+2020,Physics,"['Roger Penrose', 'Reinhard Genzel', 'Andrea Ghez']",3
+2020,Physiology or Medicine,"['Harvey J. Alter', 'Michael Houghton', 'Charles M. Rice']",3
+2021,Chemistry,"['Benjamin List', 'David W.C. MacMillan']",2
+2021,Economic Sciences,"['David Card', 'Joshua D. Angrist', 'Guido W. Imbens']",3
+2021,Literature,['Abdulrazak Gurnah'],1
+2021,Peace,"['Maria Ressa', 'Dmitry Andreyevich Muratov']",2
+2021,Physics,"['Syukuro Manabe', 'Klaus Hasselmann', 'Giorgio Parisi']",3
+2021,Physiology or Medicine,"['David Julius', 'Ardem Patapoutian']",2
+2022,Chemistry,"['Carolyn R. Bertozzi', 'Morten Meldal', 'K. Barry Sharpless']",3
+2022,Economic Sciences,"['Ben S. Bernanke', 'Douglas W. Diamond', 'Philip H. Dybvig']",3
+2022,Literature,['Annie Ernaux'],1
+2022,Peace,"['Ales Bialiatski ', 'Memorial', 'Center for Civil Liberties']",3
+2022,Physics,"['Alain Aspect', 'John F. Clauser', 'Anton Zeilinger']",3
+2022,Physiology or Medicine,['Svante Pääbo'],1
+2023,Chemistry,"['Moungi G. Bawendi', 'Louis E. Brus', 'Aleksey Yekimov ']",3
+2023,Economic Sciences,['Claudia Goldin'],1
+2023,Literature,['Jon Fosse'],1
+2023,Peace,['Narges Mohammadi'],1
+2023,Physics,"['Pierre Agostini', 'Ferenc Krausz', 'Anne L’Huillier']",3
+2023,Physiology or Medicine,"['Katalin Karikó', 'Drew Weissman']",2
+2024,Chemistry,"['David Baker', 'Demis Hassabis', 'John Jumper']",3
+2024,Economic Sciences,"['Daron Acemoglu', 'Simon Henry Roberts Johnson', 'James A. Robinson']",3
+2024,Literature,['Han Kang'],1
+2024,Peace,['Nihon Hidankyo'],1
+2024,Physics,"['John J. Hopfield', 'Geoffrey Hinton']",2
+2024,Physiology or Medicine,"['Victor Ambros', 'Gary Ruvkun']",2
