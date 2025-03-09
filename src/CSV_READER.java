@@ -10,7 +10,7 @@ public class CSV_READER {
             while ((line = br.readLine()) != null) {
                 lineNumber++;
                 try {
-                    String[] parts = line.split(","); // Assuming CSV uses commas
+                    String[] parts = line.split(",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)");
                     if (parts.length != 4) {
                         System.err.println("Skipping invalid line " + lineNumber + ": " + line);
                         continue;
@@ -30,15 +30,29 @@ public class CSV_READER {
     }
 
     private List<String> parseLaureates(String laureateStr) {
-        if (laureateStr.startsWith("[") && laureateStr.endsWith("]")) {
-            laureateStr = laureateStr.substring(1, laureateStr.length() - 1);
-        }
-        String[] names = laureateStr.split(";"); // Assuming names are separated by semicolons
+        laureateStr = laureateStr.replaceAll("^\\[|\\]$", ""); // Remove brackets
+        String[] names = laureateStr.split(",\s*(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)"); // Correctly split names while keeping quoted ones intact
         List<String> laureates = new ArrayList<>();
         for (String name : names) {
-            laureates.add(name.trim().replaceAll("^['\"]|['\"]$", "");
-
+            laureates.add(name.trim().replaceAll("^['\"]|['\"]$", ""));
         }
         return laureates;
     }
 }
+
+
+
+//    private List<String> parseLaureates(String laureateStr) {
+//        if (laureateStr.startsWith("[") && laureateStr.endsWith("]")) {
+//            laureateStr = laureateStr.substring(1, laureateStr.length() - 1);
+//        }
+//        String[] names = laureateStr.split(";"); // Assuming names are separated by semicolons
+//        List<String> laureates = new ArrayList<>();
+//        for (String name : names) {
+//            laureates.add(name.trim().replaceAll("^[\'\"]|[\'\"]$", ""));
+//
+//        }
+//        return laureates;
+//    }
+//}
+
