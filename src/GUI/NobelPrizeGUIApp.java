@@ -9,6 +9,7 @@ import java.io.IOException;
 import java.util.List;
 
 public class NobelPrizeGUIApp extends JFrame {
+    //Constructor that initializes the GUI with a JTable displaying Nobel Prize data.
     public NobelPrizeGUIApp(List<NobelPrize> prizes) {
         setTitle("Nobel Prize Winners (1950–Present)"); // Clear title
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -36,6 +37,8 @@ public class NobelPrizeGUIApp extends JFrame {
         setVisible(true);
     }
 
+//Main method to start the application.
+//It reads Nobel Prize data from a CSV file and launches the GUI.
     public static void main(String[] args) {
         CSV_READER reader = new CSV_READER();
         try {
