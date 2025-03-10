@@ -1,3 +1,8 @@
+package GUI;
+
+import LOGIC.CSV_READER;
+import LOGIC.NobelPrize;
+
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.io.IOException;

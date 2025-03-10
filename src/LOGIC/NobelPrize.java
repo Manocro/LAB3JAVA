@@ -1,3 +1,5 @@
+package LOGIC;
+
 import java.util.List; // Add this line
 
 public class NobelPrize {
