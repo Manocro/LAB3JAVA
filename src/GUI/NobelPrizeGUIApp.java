@@ -8,7 +8,6 @@ import org.jfree.chart.JFreeChart;
 import org.jfree.data.category.DefaultCategoryDataset;
 import org.jfree.data.general.DefaultPieDataset;
 
-
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
@@ -79,6 +78,16 @@ public class NobelPrizeGUIApp extends JFrame {
                 "Nobel Prizes by Category", "Category", "Number of Prizes", dataset
         );
     }
+
+    public static void main(String[] args) {
+        CSV_READER reader = new CSV_READER();
+        try {
+            List<NobelPrize> prizes = reader.read("nobel_prizes.csv");
+            SwingUtilities.invokeLater(() -> new NobelPrizeGUIApp(prizes));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 }
 
 class DetailsPanel extends JPanel {
@@ -124,18 +133,5 @@ class StatsPanel extends JPanel {
         add(totalLabel);
         add(categoryLabel);
         add(avgSharedLabel);
-    }
-}
-
-//Main method to start the application.
-//It reads Nobel Prize data from a CSV file and launches the GUI.
-    public void main(String[] args) {
-        CSV_READER reader = new CSV_READER();
-        try {
-            List<NobelPrize> prizes = reader.read("nobel_prizes.csv");
-            SwingUtilities.invokeLater(() -> new NobelPrizeGUIApp(prizes));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
     }
 }
