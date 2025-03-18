@@ -1,41 +1,82 @@
 package GUI;
 
-import LOGIC.CSV_READER;
 import LOGIC.NobelPrize;
+import LOGIC.CSV_READER;
+import org.jfree.chart.ChartFactory;
+import org.jfree.chart.ChartPanel;
+import org.jfree.chart.JFreeChart;
+import org.jfree.data.category.DefaultCategoryDataset;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
-import java.io.IOException;
+import java.awt.*;
 import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 public class NobelPrizeGUIApp extends JFrame {
-    //Constructor that initializes the GUI with a JTable displaying Nobel Prize data.
-    public NobelPrizeGUIApp(List<NobelPrize> prizes) {
-        setTitle("Nobel Prize Winners (1950–Present)"); // Clear title
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setSize(800, 600);
+    private JTable table;
+    private DetailsPanel detailsPanel;
+    private StatsPanel statsPanel;
+    private ChartPanel chartPanel;
 
-        // Column names
+    public NobelPrizeGUIApp(List<NobelPrize> prizes) {
+        setTitle("Nobel Prize Winners (1950–Present)");
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setSize(1000, 700);
+        setLayout(new BorderLayout());
+
+        // Table Panel
         String[] columns = {"Year", "Category", "Laureates", "Shared Count"};
         DefaultTableModel model = new DefaultTableModel(columns, 0);
-
-        // Populate table
         for (NobelPrize prize : prizes) {
-            Object[] row = {
+            model.addRow(new Object[]{
                     prize.getYear(),
                     prize.getCategory(),
                     String.join(", ", prize.getLaureates()),
                     prize.getSharedCount()
-            };
-            model.addRow(row);
+            });
         }
+        table = new JTable(model);
+        table.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+        table.getSelectionModel().addListSelectionListener(e -> updateDetailsPanel(prizes));
+        add(new JScrollPane(table), BorderLayout.CENTER);
 
-        JTable table = new JTable(model);
-        JScrollPane scrollPane = new JScrollPane(table);
-        add(scrollPane);
+        // Stats and Chart Panels
+        statsPanel = new StatsPanel(prizes);
+        chartPanel = new ChartPanel(createChart(prizes));
+        JPanel rightPanel = new JPanel(new GridLayout(2, 1));
+        rightPanel.add(statsPanel);
+        rightPanel.add(chartPanel);
+        add(rightPanel, BorderLayout.EAST);
+
+        // Details Panel
+        detailsPanel = new DetailsPanel();
+        add(detailsPanel, BorderLayout.SOUTH);
 
         setVisible(true);
     }
+
+    private void updateDetailsPanel(List<NobelPrize> prizes) {
+        int selectedRow = table.getSelectedRow();
+        if (selectedRow != -1) {
+            NobelPrize selectedPrize = prizes.get(selectedRow);
+            detailsPanel.updateDetails(selectedPrize);
+        }
+    }
+
+    private JFreeChart createChart(List<NobelPrize> prizes) {
+        Map<String, Long> categoryCounts = prizes.stream()
+                .collect(Collectors.groupingBy(NobelPrize::getCategory, Collectors.counting()));
+
+        DefaultCategoryDataset dataset = new DefaultCategoryDataset();
+        categoryCounts.forEach((category, count) -> dataset.addValue(count, "Prizes", category));
+
+        return ChartFactory.createBarChart(
+                "Nobel Prizes by Category", "Category", "Number of Prizes", dataset
+        );
+    }
+}
 
 //Main method to start the application.
 //It reads Nobel Prize data from a CSV file and launches the GUI.
