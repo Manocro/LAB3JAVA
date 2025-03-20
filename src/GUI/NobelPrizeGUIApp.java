@@ -9,23 +9,27 @@ import org.jfree.data.category.DefaultCategoryDataset;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
+import javax.swing.table.TableRowSorter;
 import java.awt.*;
 import java.io.IOException;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
 /**
- * NobelPrizeGUIApp is the main GUI app that displays Nobel Prize data
+ * NobelPrizeGUIApp is the main GUI application that displays Nobel Prize data
  * in a table format with additional details, statistics, and a collaboration trend chart.
  */
 public class NobelPrizeGUIApp extends JFrame {
     private JTable table;
     private DefaultTableModel model;
+    private TableRowSorter<DefaultTableModel> sorter;
     private DetailsPanel detailsPanel;
     private StatsPanel statsPanel;
     private ChartPanel chartPanel;
     private JComboBox<String> categoryFilter;
+    private JComboBox<String> sortFilter;
     private List<NobelPrize> originalPrizes;
 
     /**
@@ -40,19 +44,30 @@ public class NobelPrizeGUIApp extends JFrame {
         setLayout(new BorderLayout());
 
         // Filter Panel for selecting prize categories
-        JPanel filterPanel = new JPanel();
+        JPanel filterPanel = new JPanel(new FlowLayout(FlowLayout.LEFT));
         categoryFilter = new JComboBox<>(getUniqueCategories(prizes));
         categoryFilter.insertItemAt("All", 0);
         categoryFilter.setSelectedIndex(0);
         categoryFilter.addActionListener(e -> applyFilter());
         filterPanel.add(new JLabel("Filter by Category:"));
         filterPanel.add(categoryFilter);
+
+        // Sorting Panel for sorting options
+        sortFilter = new JComboBox<>(new String[]{"Year", "Category", "Laureates"});
+        sortFilter.addActionListener(e -> applySort());
+        filterPanel.add(new JLabel("Sort by:"));
+        filterPanel.add(sortFilter);
+
+        filterPanel.revalidate();
+        filterPanel.repaint();
         add(filterPanel, BorderLayout.NORTH);
 
         // Table Panel displaying prize details
         String[] columns = {"Year", "Category", "Laureates", "Shared Count"};
         model = new DefaultTableModel(columns, 0);
         table = new JTable(model);
+        sorter = new TableRowSorter<>(model);
+        table.setRowSorter(sorter);
         table.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
         table.getSelectionModel().addListSelectionListener(e -> updateDetailsPanel());
         add(new JScrollPane(table), BorderLayout.CENTER);
@@ -72,6 +87,7 @@ public class NobelPrizeGUIApp extends JFrame {
 
         setVisible(true);
     }
+
     /**
      * Filters the table based on the selected category and updates other components.
      */
@@ -85,6 +101,30 @@ public class NobelPrizeGUIApp extends JFrame {
         chartPanel.setChart(createCollaborationChart(filteredPrizes));
     }
     /**
+     * Sorts the table based on the selected sorting criteria.
+     */
+    private void applySort() {
+        if (sortFilter == null || sorter == null) return; // Prevent null pointer exception
+        if (sortFilter == null) return; // Prevent null pointer exception
+
+        String selectedSort = (String) sortFilter.getSelectedItem();
+        if (selectedSort != null) {
+            switch (selectedSort) {
+                case "Year":
+                    sorter.toggleSortOrder(0);
+                    break;
+                case "Category":
+                    sorter.toggleSortOrder(1);
+                    break;
+                case "Laureates":
+                    sorter.toggleSortOrder(2);
+                    break;
+            }
+            sorter.sort();
+        }
+    }
+
+    /**
      * Updates the table with the provided list of Nobel Prize entries.
      */
     private void updateTable(List<NobelPrize> prizes) {
@@ -97,17 +137,22 @@ public class NobelPrizeGUIApp extends JFrame {
                     prize.getSharedCount()
             });
         }
+        applySort(); // Ensure sorting is reapplied after filtering
     }
+
     /**
      * Updates the details panel with the currently selected row's data.
      */
     private void updateDetailsPanel() {
         int selectedRow = table.getSelectedRow();
         if (selectedRow != -1) {
-            int year = (int) model.getValueAt(selectedRow, 0);
-            String category = (String) model.getValueAt(selectedRow, 1);
-            String laureates = (String) model.getValueAt(selectedRow, 2);
-            int sharedCount = (int) model.getValueAt(selectedRow, 3);
+            // Convert the selected row index to match the sorted model index
+            int modelRow = table.convertRowIndexToModel(selectedRow);
+
+            int year = (int) model.getValueAt(modelRow, 0);
+            String category = (String) model.getValueAt(modelRow, 1);
+            String laureates = (String) model.getValueAt(modelRow, 2);
+            int sharedCount = (int) model.getValueAt(modelRow, 3);
 
             NobelPrize selectedPrize = new NobelPrize(year, category, List.of(laureates.split(", ")), sharedCount);
             detailsPanel.updateDetails(selectedPrize);
