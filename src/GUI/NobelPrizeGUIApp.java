@@ -10,8 +10,6 @@ import org.jfree.data.category.DefaultCategoryDataset;
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;
@@ -48,13 +46,13 @@ public class NobelPrizeGUIApp extends JFrame {
         model = new DefaultTableModel(columns, 0);
         table = new JTable(model);
         table.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
-        table.getSelectionModel().addListSelectionListener(e -> updateDetailsPanel(prizes));
+        table.getSelectionModel().addListSelectionListener(e -> updateDetailsPanel());
         add(new JScrollPane(table), BorderLayout.CENTER);
         updateTable(prizes);
 
         // Stats and Chart Panels
         statsPanel = new StatsPanel(prizes);
-        chartPanel = new ChartPanel(createBarChart(prizes));
+        chartPanel = new ChartPanel(createCollaborationChart(prizes));
         JPanel rightPanel = new JPanel(new GridLayout(2, 1));
         rightPanel.add(statsPanel);
         rightPanel.add(chartPanel);
@@ -74,7 +72,7 @@ public class NobelPrizeGUIApp extends JFrame {
                 .collect(Collectors.toList());
         updateTable(filteredPrizes);
         statsPanel.updateStats(filteredPrizes);
-        chartPanel.setChart(createBarChart(filteredPrizes));
+        chartPanel.setChart(createCollaborationChart(filteredPrizes));
     }
 
     private void updateTable(List<NobelPrize> prizes) {
@@ -89,23 +87,34 @@ public class NobelPrizeGUIApp extends JFrame {
         }
     }
 
-    private void updateDetailsPanel(List<NobelPrize> prizes) {
+    private void updateDetailsPanel() {
         int selectedRow = table.getSelectedRow();
         if (selectedRow != -1) {
-            NobelPrize selectedPrize = prizes.get(selectedRow);
+            int year = (int) model.getValueAt(selectedRow, 0);
+            String category = (String) model.getValueAt(selectedRow, 1);
+            String laureates = (String) model.getValueAt(selectedRow, 2);
+            int sharedCount = (int) model.getValueAt(selectedRow, 3);
+
+            NobelPrize selectedPrize = new NobelPrize(year, category, List.of(laureates.split(", ")), sharedCount);
             detailsPanel.updateDetails(selectedPrize);
         }
     }
 
-    private JFreeChart createBarChart(List<NobelPrize> prizes) {
-        Map<String, Long> categoryCounts = prizes.stream()
-                .collect(Collectors.groupingBy(NobelPrize::getCategory, Collectors.counting()));
+    private JFreeChart createCollaborationChart(List<NobelPrize> prizes) {
+        Map<String, long[]> categoryCollabCounts = prizes.stream()
+                .collect(Collectors.groupingBy(NobelPrize::getCategory,
+                        Collectors.reducing(new long[2],
+                                prize -> new long[]{(prize.getSharedCount() == 1 ? 1 : 0), (prize.getSharedCount() > 1 ? 1 : 0)},
+                                (a, b) -> new long[]{a[0] + b[0], a[1] + b[1]})));
 
         DefaultCategoryDataset dataset = new DefaultCategoryDataset();
-        categoryCounts.forEach((category, count) -> dataset.addValue(count, "Prizes", category));
+        categoryCollabCounts.forEach((category, counts) -> {
+            dataset.addValue(counts[0], "Single Winner", category);
+            dataset.addValue(counts[1], "Collaborative Award", category);
+        });
 
         return ChartFactory.createBarChart(
-                "Nobel Prizes by Category", "Category", "Number of Prizes", dataset
+                "Nobel Prize Collaboration Trends", "Category", "Number of Awards", dataset
         );
     }
 
@@ -168,9 +177,9 @@ class StatsPanel extends JPanel {
 
     public void updateStats(List<NobelPrize> prizes) {
         totalLabel.setText("Total Prizes: " + prizes.size());
-        Map<String, Long> categoryCounts = prizes.stream()
-                .collect(Collectors.groupingBy(NobelPrize::getCategory, Collectors.counting()));
-        String mostAwardedCategory = categoryCounts.entrySet().stream()
+        String mostAwardedCategory = prizes.stream()
+                .collect(Collectors.groupingBy(NobelPrize::getCategory, Collectors.counting()))
+                .entrySet().stream()
                 .max(Map.Entry.comparingByValue())
                 .map(Map.Entry::getKey)
                 .orElse("Unknown");
