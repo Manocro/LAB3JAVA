@@ -1,11 +1,11 @@
 package LOGIC;
 
-import java.util.List; // Add this line
+import java.util.List;
 
 public class NobelPrize {
     private int year;
     private String category;
-    private List<String> laureates; // Requires import
+    private List<String> laureates;
     private int sharedCount;
 
     //Constructor to initialize a NobelPrize object with given attributes.

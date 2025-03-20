@@ -24,7 +24,7 @@ public class NobelPrizeConsoleApp {
             e.printStackTrace();
         }
     }
-
+//Prints the details of the prize depending on the column.
     private static void printPrizeDetails(NobelPrize prize) {
         System.out.println("Year: " + prize.getYear());
         System.out.println("Category: " + prize.getCategory());
