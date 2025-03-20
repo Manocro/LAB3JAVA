@@ -15,6 +15,10 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+/**
+ * NobelPrizeGUIApp is the main GUI app that displays Nobel Prize data
+ * in a table format with additional details, statistics, and a collaboration trend chart.
+ */
 public class NobelPrizeGUIApp extends JFrame {
     private JTable table;
     private DefaultTableModel model;
@@ -24,6 +28,10 @@ public class NobelPrizeGUIApp extends JFrame {
     private JComboBox<String> categoryFilter;
     private List<NobelPrize> originalPrizes;
 
+    /**
+     * Constructor initializes the GUI layout and components.
+     * @param prizes List of NobelPrize objects to display.
+     */
     public NobelPrizeGUIApp(List<NobelPrize> prizes) {
         this.originalPrizes = prizes;
         setTitle("Nobel Prize Winners (1950–Present)");
@@ -31,7 +39,7 @@ public class NobelPrizeGUIApp extends JFrame {
         setSize(1000, 700);
         setLayout(new BorderLayout());
 
-        // Filter Panel
+        // Filter Panel for selecting prize categories
         JPanel filterPanel = new JPanel();
         categoryFilter = new JComboBox<>(getUniqueCategories(prizes));
         categoryFilter.insertItemAt("All", 0);
@@ -41,7 +49,7 @@ public class NobelPrizeGUIApp extends JFrame {
         filterPanel.add(categoryFilter);
         add(filterPanel, BorderLayout.NORTH);
 
-        // Table Panel
+        // Table Panel displaying prize details
         String[] columns = {"Year", "Category", "Laureates", "Shared Count"};
         model = new DefaultTableModel(columns, 0);
         table = new JTable(model);
@@ -58,13 +66,15 @@ public class NobelPrizeGUIApp extends JFrame {
         rightPanel.add(chartPanel);
         add(rightPanel, BorderLayout.EAST);
 
-        // Details Panel
+        // Details Panel displaying selected prize details
         detailsPanel = new DetailsPanel();
         add(detailsPanel, BorderLayout.SOUTH);
 
         setVisible(true);
     }
-
+    /**
+     * Filters the table based on the selected category and updates other components.
+     */
     private void applyFilter() {
         String selectedCategory = (String) categoryFilter.getSelectedItem();
         List<NobelPrize> filteredPrizes = originalPrizes.stream()
@@ -74,7 +84,9 @@ public class NobelPrizeGUIApp extends JFrame {
         statsPanel.updateStats(filteredPrizes);
         chartPanel.setChart(createCollaborationChart(filteredPrizes));
     }
-
+    /**
+     * Updates the table with the provided list of Nobel Prize entries.
+     */
     private void updateTable(List<NobelPrize> prizes) {
         model.setRowCount(0);
         for (NobelPrize prize : prizes) {
@@ -86,7 +98,9 @@ public class NobelPrizeGUIApp extends JFrame {
             });
         }
     }
-
+    /**
+     * Updates the details panel with the currently selected row's data.
+     */
     private void updateDetailsPanel() {
         int selectedRow = table.getSelectedRow();
         if (selectedRow != -1) {
@@ -99,7 +113,9 @@ public class NobelPrizeGUIApp extends JFrame {
             detailsPanel.updateDetails(selectedPrize);
         }
     }
-
+    /**
+     * Creates a bar chart showing the proportion of single vs collaborative awards per category.
+     */
     private JFreeChart createCollaborationChart(List<NobelPrize> prizes) {
         Map<String, long[]> categoryCollabCounts = prizes.stream()
                 .collect(Collectors.groupingBy(NobelPrize::getCategory,
@@ -117,7 +133,9 @@ public class NobelPrizeGUIApp extends JFrame {
                 "Nobel Prize Collaboration Trends", "Category", "Number of Awards", dataset
         );
     }
-
+    /**
+     * Retrieves unique categories from the list of Nobel Prizes.
+     */
     private String[] getUniqueCategories(List<NobelPrize> prizes) {
         return prizes.stream()
                 .map(NobelPrize::getCategory)
@@ -125,7 +143,9 @@ public class NobelPrizeGUIApp extends JFrame {
                 .sorted()
                 .toArray(String[]::new);
     }
-
+    /**
+     * Main method to start the application and load the Nobel Prize data.
+     */
     public static void main(String[] args) {
         CSV_READER reader = new CSV_READER();
         try {
@@ -136,7 +156,9 @@ public class NobelPrizeGUIApp extends JFrame {
         }
     }
 }
-
+/**
+ * DetailsPanel displays the selected Nobel Prize details.
+ */
 class DetailsPanel extends JPanel {
     private JLabel yearLabel, categoryLabel, laureatesLabel, sharedCountLabel;
 
@@ -160,7 +182,9 @@ class DetailsPanel extends JPanel {
         sharedCountLabel.setText("Shared Count: " + prize.getSharedCount());
     }
 }
-
+/**
+ * StatsPanel displays aggregate statistics about Nobel Prizes.
+ */
 class StatsPanel extends JPanel {
     private JLabel totalLabel, categoryLabel, avgSharedLabel;
 
